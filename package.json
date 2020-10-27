@@ -1,0 +1,30 @@
+{
+  "name": "frontend-path",
+  "version": "1.0.0",
+  "description": "Front-End Web UI Frameworks and Tools: Bootstrap 4 (Coursera frontend path)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rand0mdev/frontend-path.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "bootstrap"
+  ],
+  "author": "Bechir Ba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rand0mdev/frontend-path/issues"
+  },
+  "homepage": "https://github.com/rand0mdev/frontend-path#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
