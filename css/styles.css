@@ -44,3 +44,9 @@ address{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+#accordion a{
+    color: inherit!important;
+    cursor: pointer;
+    text-decoration: none;
+}
