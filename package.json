@@ -7,6 +7,7 @@
     "dev": "lite-server",
     "compile": "./node_modules/less/bin/lessc ./css/styles.less css/styles.css",
     "compile-prod": "./node_modules/less/bin/lessc ./css/styles.less css/styles.css --compress",
+    "scss": "node-sass -o css/ css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,7 +30,10 @@
     "bootstrap-social": "5.1.1",
     "font-awesome": "4.7.0",
     "jquery": "^3.5.1",
-    "less": "^3.12.2",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "node-sass": "^4.14.1"
   }
 }
